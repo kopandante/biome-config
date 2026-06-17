@@ -1,0 +1,13 @@
+{
+	"name": "@kopandante/biome-config",
+	"version": "0.1.0",
+	"description": "Shared Biome config for all Next.js projects: color/native-HTML/alert enforcement + house base (tab indent, double quotes, recommended + a11y/perf warns)",
+	"type": "module",
+	"files": ["biome.json"],
+	"exports": {
+		"./biome.json": "./biome.json",
+		".": "./biome.json"
+	},
+	"keywords": ["biome", "config", "linter", "nextjs"],
+	"license": "UNLICENSED"
+}
