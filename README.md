@@ -3,7 +3,8 @@
 Shared Biome configuration for **all Next.js projects**. One source of truth for the house
 lint/format standard plus enforcement of the project conventions:
 
-- **`noAlert: error`** — no `alert`/`confirm`/`prompt`; use a shadcn Dialog / Sonner toast.
+- **`noAlert: warn`** — no `alert`/`confirm`/`prompt`; use a shadcn Dialog / Sonner toast.
+  (Ships at `warn` for fleet migration; promote to `error` once the fleet is clean.)
 - **`noRestrictedElements: warn`** — no native `<button>/<input>/<select>/<textarea>/<dialog>`;
   use the shadcn primitives. (`components/ui/**` is exempted — that is where the primitives live.)
 - House base: tab indent, double quotes, `recommended` + curated a11y/perf/suspicious warns,

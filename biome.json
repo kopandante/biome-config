@@ -28,7 +28,7 @@
 			"suspicious": {
 				"noArrayIndexKey": "warn",
 				"noExplicitAny": "warn",
-				"noAlert": "error"
+				"noAlert": "warn"
 			},
 			"correctness": {
 				"noUnusedFunctionParameters": "warn",
